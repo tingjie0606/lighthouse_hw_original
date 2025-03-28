@@ -1,244 +1,105 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
 
+@media (min-width: 1343px) and (max-width: 1500px) {}
 
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
-
-@media (min-width: 1200px) and (max-width: 1342px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 150px;
-    }
-}
+@media (min-width: 1200px) and (max-width: 1342px) {}
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 150px;
+    .banner_main .bluid h1 {
+        font-size: 110px;
+        line-height: 136px;
     }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 22%;
+    .about_img {
+        padding-right: 0;
     }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 10%;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0px 19px;
-    }
-    .sealo ul li a {
-        padding-right: 43px;
-    }
-    ul.social_icon li {
-        margin: 0 0px;
-    }
-    .cuplle h3 {
-        font-size: 53px;
-    }
-    ul.social_icon li a i {
-        width: 31px;
-        height: 31px;
+    .helpful ul li {
+        padding-right: 22px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 150px;
-    }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 25%;
-    }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 10%;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0px 13px;
-        font-size: 14px;
-    }
-    .sealo ul li a {
-        padding-right: 28px;
-    }
-    .logo {
-        width: 140px;
-    }
-    .cuplle h3 {
-        font-size: 45px;
-    }
     .titlepage h2 {
-        font-size: 45px;
+        font-size: 37px;
+        line-height: 41px;
     }
-    .tz-gallery .lightbox h3 {
-        top: 21px
+    .service_img {
+        height: 226px;
+        width: 226px;
+    }
+    .about_img {
+        padding-right: 0;
+    }
+    .helpful ul li {
+        padding-right: 2px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 111px;
-        background-size: 100% 100%;
+    .airmic {
+        margin-top: 40px;
+        margin-bottom: 30px;
     }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 25%;
+    .about_img {
+        padding-right: 0;
     }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 10%;
-    }
-    .logo {
-        width: 149px;
-    }
-    .slider_main {
-        padding-top: 28%;
-    }
-    .cuplle h3 {
-        font-size: 41px;
-    }
-    .inner_page .logo {
-        text-align: center !important;
-        float: inherit;
-        margin: 0 auto;
-    }
-    .doi {
-        margin-top: 30px;
-    }
-    .sealo {
-        display: none;
-    }
-    .navigation.navbar {
-        float: right;
-        display: inherit !important;
-        padding: 0;
-        width: 100%;
-    }
-    .navigation .navbar-collapse {
-        background: #021626;
-        padding: 20px;
-        margin-top: 67px;
-        position: absolute;
-        width: 100%;
-        z-index: 999;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 0;
-        color: #fff;
-    }
-    .navigation.navbar-dark .navbar-toggler {
-        border: inherit;
-        float: right;
-        padding: 0;
-        width: 100%;
-        outline: inherit;
-    }
-    .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
-        width: 48px;
-        float: right;
-    }
-    .d_none {
-        display: none;
+    .about_img figure img {
+        padding-top: 30px;
     }
 }
 
 @media (max-width: 575px) {
-    .full_bg {
-        height: 100%;
-        padding-bottom: 111px;
-        background-size: 100% 100%;
+    header {
+        padding: 33px 0px;
     }
-    #carouselExampleIndicators .carousel-control-prev {
-        top: 100%;
-        left: inherit;
-        right: 25%;
+    .d_none {
+        display: none !important;
     }
-    #carouselExampleIndicators .carousel-control-next {
-        top: 100%;
-        right: 0%;
-    }
-    .header {
-        padding: 40px 0px;
+    ul.email {
+        margin-top: -43px;
     }
     .logo {
-        text-align: center !important;
-        padding-bottom: 6px;
-        float: left;
-        width: 149px;
-        margin: 0 auto;
         display: block;
+        width: 144px;
+        float: left;
     }
-    .inner_page .logo {
-        text-align: center !important;
-        float: inherit;
-        margin: 0 auto;
-    }
-    .cuplle h3 {
-        font-size: 26px;
-        line-height: 45px;
-    }
-    .ma_bottom30 {
+    .airmic {
+        padding-top: 60px;
         margin-bottom: 30px;
     }
-    .doi {
-        margin-top: 30px;
+    .airmic h1 {
+        font-size: 53px;
+        line-height: 53px;
     }
-    .sealo {
-        display: none;
+    #top_section {
+        height: 100%;
+    }
+    .banner_main .bluid .read_more {
+        margin-right: 5px;
+        max-width: 124px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 16px;
     }
     .titlepage h2 {
-        line-height: 30px;
-        font-size: 31px;
+        font-size: 35px;
+        line-height: 40px;
     }
-    .margintop {
-        margin-top: 50px;
+    .about .titlepage {
+        padding-bottom: 40px;
     }
-    .display_smsho {
-        display: inherit;
+    .testomoniam_text {
+        padding: 40px 25px;
     }
-    .display_smnone {
-        display: none;
+    .about_img {
+        padding-right: 0;
     }
-    .infoma {
-        margin-top: 20px;
+    .mics {
+        width: 290px;
     }
-    .copyright p {
-        font-size: 17px;
-    }
-    .navigation.navbar {
-        float: right;
-        display: inherit !important;
-        padding: 0;
-        width: 100%;
-    }
-    .navigation .navbar-collapse {
-        background: #000000;
-        padding: 20px;
-        margin-top: 67px;
-        position: absolute;
-        width: 100%;
-        z-index: 999;
-    }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 0;
-        color: #fff;
-    }
-    .navigation.navbar-dark .navbar-toggler {
-        float: right;
-        border: inherit;
-        margin-top: 1px;
-        padding: 0;
-        outline: inherit;
-    }
-    .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
-        width: 48px;
+    .mics_icon {
+        width: 261px;
     }
     .d_none {
         display: none;
